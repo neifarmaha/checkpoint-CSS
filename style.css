@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(227, 251, 9);
+    font-style: italic;
+    background-color: black;
+    padding: 5px 5px 5px 10px ;
+}
+li {
+   display: inline;
+ } 
+ h3 {
+     color: rgb(67, 110, 81);
+ }
+ 
+ ul { 
+     display: flex;
+     justify-content: space-around;
+     align-items: center; 
+ } 
+ nav {
+     background-color: #a1dac5;
+ }
+   
+.para{
+    border: 1px solid black; 
+     padding: 10px 10px 10px 10px ; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    /*background-color: rgb(255, 245, 245);*/
+    text-align: justify;
+    margin: 30px 30px 30px 30px;
+}
+.image{
+    justify-content: center;
+    display: flex;
+}
+table, th , td {
+    width: 500px;
+    height: 50px;
+    border-collapse:collapse;
+    margin-left: 30px;
+}
+td {
+    text-align: center;
+}
+footer{
+   line-height: 30px;
+}
